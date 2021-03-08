@@ -1,0 +1,23 @@
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.layout main {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.navigation {
+    width: 100%;
+    position: fixed;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    z-index: 100;
+}

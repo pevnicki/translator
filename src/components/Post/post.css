@@ -1,0 +1,16 @@
+.card-container{
+    margin-top: 0.5rem;
+}
+.header-container, .footer-container{
+    display: flex;
+}
+.header-child, .footer-child{
+    flex: 1;
+}
+.header-child:last-child, .footer-child:last-child{
+    text-align: right;
+}
+
+p{
+    text-transform: capitalize;
+}
